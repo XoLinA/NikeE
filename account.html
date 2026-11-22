@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <title>Nike — Sign In</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a href="index.html" aria-label="Nike — home">
+      <img src="svg/logo.svg" alt="Nike">
+    </a>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="shop.html">New & Featured</a></li>
+        <li><a href="shop.html">Men</a></li>
+        <li><a href="shop.html">Women</a></li>
+        <li><a href="shop.html">Kids</a></li>
+        <li><a href="shop.html">Sale</a></li>
+        <li><a href="shop.html">SNKRS</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <label>
+        <img src="svg/icon1.svg" alt="">
+        <input type="search" aria-label="Search" placeholder="Search">
+      </label>
+      <a href="#best" aria-label="Favorites"><img src="svg/icon2.svg" alt=""></a>
+      <a href="#best" aria-label="Shopping bag"><img src="svg/icon3.svg" alt=""></a>
+    </div>
+
+    <span aria-hidden="true"><img src="svg/icon9.svg" alt=""></span>
+  </header>
+
+  <main class="site-main account-main">
+    <section class="login-box" aria-labelledby="account-title">
+      <img class="login-logo" src="images/nike-logo.png" alt="Nike" width="48" height="20">
+      <h1 id="account-title">YOUR ACCOUNT<br>FOR EVERYTHING<br>NIKE</h1>
+
+      <form class="login-form">
+        <label class="visually-hidden" for="user-email">Email address</label>
+        <input class="login-input" id="user-email" type="email" name="email" placeholder="Email address"
+          autocomplete="email" required>
+        <label class="visually-hidden" for="user-password">Password</label>
+        <input class="login-input" id="user-password" type="password" name="password" placeholder="Password"
+          autocomplete="current-password" required>
+
+        <div class="login-options">
+          <label class="keep-signed"><input type="checkbox" name="remember" checked><span>Keep me signed
+              in</span></label>
+          <a href="#">Forgotten your password?</a>
+        </div>
+        <p class="login-policy">By logging in, you agree to Nike's <a href="#">Privacy Policy</a> and <a href="#">Terms
+            of Use</a>.</p>
+        <button class="sign-in" type="button" title="Visual demo — no login server is connected">SIGN IN</button>
+        <p class="join-copy">Not a Member? <a href="#">Join Us.</a></p>
+      </form>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div>
+      <a href="#">FIND A STORE</a>
+      <a href="#">BECOME A MEMBER</a>
+      <a href="#">SIGN UP FOR EMAIL</a>
+      <a href="#">Send Us Feedback</a>
+      <a href="#">STUDENT DISCOUNTS</a>
+    </div>
+    <div>
+      <h2>GET HELP</h2>
+      <a href="#">Order Status</a>
+      <a href="#">Delivery</a>
+      <a href="#">Returns</a>
+      <a href="#">Payment Options</a>
+      <a href="#">Contact Us On Nike.com Inquiries</a>
+      <a href="#">Contact Us On All Other Inquiries</a>
+    </div>
+    <div>
+      <h2>ABOUT NIKE</h2>
+      <a href="">News</a>
+      <a href="">Careers</a>
+      <a href="">Investors</a>
+      <a href="">Sustainability</a>
+    </div>
+    <div>
+      <a href=""><img src="svg/icon4.svg" alt=""></a>
+      <a href=""><img src="svg/icon5.svg" alt=""></a>
+      <a href=""><img src="svg/icon6.svg" alt=""></a>
+      <a href=""><img src="svg/icon7.svg" alt=""></a>
+    </div>
+  </footer>
+</body>
+
+</html>
